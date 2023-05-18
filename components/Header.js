@@ -16,7 +16,7 @@ function Header() {
             src="https://links.papareact.com/f90"
             width={140}
             height={40}
-            style={{ objectFit: "contain" }}
+            objectFit="contain"
             className="cursor-pointer"
           />
         </div>
