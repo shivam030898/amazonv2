@@ -38,8 +38,9 @@ function CheckoutProduct({
         <div className="flex">
           {Array(rating)
             .fill()
-            .map((_, i) => (
+            .map((_, _key) => (
               <svg
+                key={id}
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"

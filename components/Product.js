@@ -37,9 +37,10 @@ function Product({ id, title, price, description, category, image }) {
       <div className="flex">
         {Array(rating)
           .fill()
-          .map((_, i) => (
+          .map((_, _key) => (
             // <StarIcon className="h-5 text-yellow-500" />
             <svg
+              key={id}
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="currentColor"
